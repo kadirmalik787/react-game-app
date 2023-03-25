@@ -1,0 +1,48 @@
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px 10px; */
+    border-radius: 10px 10px 0 0 ;
+    box-shadow: 0px 0px 10px #888;
+    width: 20%;
+    margin: 3rem auto;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.X{
+    color: var(--xRed);
+    width: 100%;
+    padding: 15px;
+    
+}
+.O{
+    color: var(--xBlack);
+    width: 100%;
+    padding: 15px;
+
+}
+.T{
+    color: mediumblue;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.xplay{
+    border-bottom: 5px solid var(--xRed);
+}
+.oplay{
+    border-bottom: 5px solid var(--oBlack);
+}
+
+@media screen and (max-width: 767px){
+    .score{
+        
+        width: 70%
+        
+    
+    }
+
+}
